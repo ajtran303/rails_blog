@@ -27,7 +27,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
-  # gem 'active_designer'
+  gem 'active_designer'
   gem 'capybara'
   gem 'launchy'
   gem 'pry'
