@@ -1,0 +1,22 @@
+<main class='column middle'>
+  <header class='page-header center-text'>
+    <h2>Home</h2>
+  </header>
+
+  <section class=welcome-paragraphs-container>
+    <% paragraphs = [
+        ["Quidem rerum tenetur. Eos qui et. Aut excepturi molestiae.", "Quam ut sequi. Omnis et dicta. Earum quam asperiores.", "Fugiat molestiae atque. Repudiandae enim aperiam. Fugit aut nihil.", "Accusantium odio voluptas. Repellendus alias sunt. Ut nihil rerum.", "Qui dolore enim. Illum qui doloremque. Adipisci hic cupiditate."],
+        ["Quidem quia saepe. Quaerat illo non. Dolores repudiandae molestiae.", "Minus in alias. Rerum animi odit. Voluptatibus dolor rerum.", "Perspiciatis consectetur aut. Et voluptate quas. Inventore ut ut.", "Modi aut voluptatum. Voluptatibus porro et. Aspernatur ipsa rerum.", "Consequatur doloremque commodi. Reiciendis quaerat velit. Eaque dolor non."],
+        ["Porro maxime ipsa. Dolorum non magni. Sunt culpa distinctio.", "Numquam veniam ab. Incidunt reiciendis at. Ab et debitis.", "Quibusdam explicabo sunt. Id impedit autem. Consequatur quae dolorum.", "Sit quasi molestiae. Minus nemo qui. Vero in suscipit.", "Natus aspernatur quaerat. Reprehenderit nihil et. Saepe debitis aut."],
+        ["Qui itaque cumque. Sint quia et. Nulla doloribus accusantium.", "Nulla occaecati impedit. Eligendi aliquam dignissimos. Molestias dolore quae.", "Autem non dolorem. Quia natus aut. Omnis sed et.", "Similique voluptatem omnis. Accusamus non provident. Accusamus placeat autem.", "Velit labore nihil. Quas amet saepe. Qui saepe vel."],
+        ["Culpa ut molestias. Est illum at. Voluptas rerum excepturi.", "Veritatis praesentium nihil. Ea dolorem voluptatibus. Sint in pariatur.", "Ratione et error. Voluptatem alias quod. Libero velit expedita.", "Hic corrupti temporibus. Voluptas aspernatur ut. Quis saepe ut.", "In nemo ipsam. Modi temporibus autem. Et dolor quis."]
+      ]
+    %>
+
+    <% paragraphs.each do |paragraph|%>
+      <p class='welcome-paragraph'>
+        <%= paragraph.join ' ' %>
+      </p>
+    <% end %>
+  </section>
+</main>
