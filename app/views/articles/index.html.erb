@@ -1,0 +1,11 @@
+<main>
+  <header class='page-header'>
+    <h1>All Articles</h1>
+  </header>
+
+  <section class='articles'>
+    <% @articles.each do |article| %>
+    <%= link_to article.title, article_path(article) %>
+    <% end %>
+  </section>
+</main>

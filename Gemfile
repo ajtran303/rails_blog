@@ -29,6 +29,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   gem 'active_designer'
   gem 'capybara'
+  gem 'factory_bot_rails'
+  gem 'faker'
   gem 'launchy'
   gem 'pry'
   gem 'rspec-rails'
